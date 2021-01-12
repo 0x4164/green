@@ -1,5 +1,5 @@
-for i in $(seq 10 10); do echo $i;
-	for j in $(seq 25 31); do echo $j;
+for i in $(seq 11 12); do echo $i;
+	for j in $(seq 1 31); do echo $j;
 	echo "2020"$i$j" 10:17:00"
 	sudo date -s "2020-$i-$j 10:17:00";
 	date;
